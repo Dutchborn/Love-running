@@ -4,11 +4,19 @@
   box-sizing: border-box;
 }
 
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   color: #3a3a3a;
+  font-family: "Lato", sans-serif;
 }
 
 /* Header */
@@ -21,6 +29,7 @@ main {
   background-color: brown;
   flex: 1 0 auto; 
 }
+
 
 /* Footer */
 footer{
